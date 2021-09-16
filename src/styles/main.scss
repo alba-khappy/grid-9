@@ -1,0 +1,67 @@
+@import "general.scss";
+
+.slider {
+    background-image: url("../images/slider.jpg");
+    background-repeat: no-repeat;
+    width: 1098px;
+    height: 344px;
+    padding: 100px 60px;
+}
+
+.slider-h1 {
+    max-width: 436px;
+    font-weight: 500;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.slider-p {
+    max-width: 436px;
+}
+
+/*settings*/
+
+.settings {
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+}
+
+.sort-list {
+    display: flex;
+    align-items: center;
+}
+
+.sort-item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.sort-link {
+    @include item;
+}
+
+/*tags*/
+
+.tags {
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+}
+
+.tags-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tags-item:not(:last-child) {
+    margin-right: 15px;
+}
+
+.tags-link {
+    @include item;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}

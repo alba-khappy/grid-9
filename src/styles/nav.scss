@@ -1,0 +1,45 @@
+@import "general.scss";
+
+.nav {
+    @include borderRadius;
+    background-color: $white;
+    padding: 40px 30px;
+}
+
+.nav-logo {
+    width: 90px;
+    height: 20px;
+    display: inline-block;
+    background-image: url("../images/logotype.svg");
+    background-repeat: no-repeat;
+}
+
+.nav-site-link {
+    color: $black;
+}
+
+.nav-user-link {
+    padding-left: 20px;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        background-repeat: no-repeat;
+        width: 20px;
+        height: 20px;
+        left: 0;
+    }
+}
+
+.nav-user-link--1 {
+    &::before {
+        background-image: url("../images/men.png");
+    }
+}
+
+.nav-user-link--2 {
+    &::before {
+        background-image: url("../images/info.png");
+    }
+}

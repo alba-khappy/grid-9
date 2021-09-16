@@ -1,1 +1,22 @@
 @import "general.scss";
+
+
+.footer-socials-link {
+    background-repeat: no-repeat;
+}
+
+.footer-socials-link--pint {
+    background-image: url('./images/pintarest.svg');
+}
+
+.footer-socials-link--fb {
+    background-image: url('./images/facebook.svg');
+}
+
+.footer-socials-link--you {
+    background-image: url('./images/youtube.svg');
+}
+
+.footer-socials-link--inst {
+    background-image: url('./images/instagram.svg');
+}

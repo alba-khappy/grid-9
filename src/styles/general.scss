@@ -12,11 +12,39 @@ li {
     list-style-type: none;
 }
 
-body {
+$white: #ffffff;
+$black: #01170a;
 
+@mixin borderRadius {
+    border-radius: 10px;
+}
+
+@mixin item {
+    padding: 12px 20px;
+    border: 1px solid #31b768;
+    border-radius: 5px;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: 252px 1fr;
+    column-gap: 30px;
+    grid-template-rows: auto 1fr auto;
+    row-gap: 40px;
+    min-height: 100vh;
+    padding: 30px;
+    background-color: #f7f7fa;
+    font-family: "Raleway", sans-serif;
 }
 
 .container {
     max-width: 1440px;
     margin: 0 auto;
+}
+
+.h2 {
+    font-weight: 500;
+    font-size: 14px;
 }

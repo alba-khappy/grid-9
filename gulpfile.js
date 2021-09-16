@@ -107,6 +107,7 @@ watch('src/pug/**/*.pug', puggy);
 watch('src/**/*.html', htmlMinify);
 watch('src/images/**/*.jpg', images);
 watch('src/images/**/*.png', images);
+watch('src/images/**/*.svg', images);
 watch('src/styles/*.scss', scss);
 watch('src/styles/*.css', styles);
 watch('src/js/*.js', scripts);

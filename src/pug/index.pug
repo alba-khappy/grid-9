@@ -3,10 +3,17 @@ html(lang="ru")
     meta(charset="utf-8")
     meta(name="viewport" content="width=device-width, initial-scale=1")
     title= "Grid 9"
-    link(rel="stylesheet", href="https://unpkg.com/swiper/swiper-bundle.min.css")
+    link(rel="preconnect" href="https://fonts.googleapis.com")
+    link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+    link(href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet")
     link(rel='stylesheet', href='./main.css', type='text/css')
 
   body
+
+    include nav.pug
+    include main.pug
+    include aside.pug
+    include footer.pug
       
          script(src='./app.js')
      
