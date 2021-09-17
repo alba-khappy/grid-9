@@ -87,12 +87,21 @@ body {
   font-size: 14px;
 }
 
+.footer-socials-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .footer-socials-link {
   background-repeat: no-repeat;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
 }
 
 .footer-socials-link--pint {
-  background-image: url("./images/pintarest.svg");
+  background-image: url("./images/pinterest.svg");
 }
 
 .footer-socials-link--fb {
@@ -687,12 +696,21 @@ body {
   font-size: 14px;
 }
 
+.footer-socials-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .footer-socials-link {
   background-repeat: no-repeat;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
 }
 
 .footer-socials-link--pint {
-  background-image: url("./images/pintarest.svg");
+  background-image: url("./images/pinterest.svg");
 }
 
 .footer-socials-link--fb {
